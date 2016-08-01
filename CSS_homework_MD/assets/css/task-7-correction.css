@@ -1,0 +1,449 @@
+@CHARSET "UTF-8";
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* ОФОРМЯНЕ НА ХЕДЪРА: */
+header {
+	display: inline-flex;
+	width: 100%;
+	background-color: #1F2324;
+	color: white;
+}
+
+header div {
+	display: inline-block;
+	width: 100%;
+}
+
+header div:first-child {
+	float: left;
+	width: 20%;
+	height: 80px;
+	font-size: 400%;
+	padding-left: 5%;
+	font-weight: bold;
+}
+
+header div:last-child {
+	float: right;
+	width: 70%;
+	height: 80px;
+	display: inline-block;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+header div:last-child p {
+	float: left;
+	padding-top: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/* ОФОРМЯНЕ НА НАВИГАТОРА: */
+nav {
+	background-color: #F73B4C;
+	display: inline-table;
+	width: 100%;
+	height: 80px;
+	margin: auto;
+}
+
+nav p {
+	float: left;
+	color: white;
+	padding: 5px 10px;
+	margin: auto;
+}
+
+/* КАРОСЕЛ */
+#carosel {
+	width: 100%;
+	height: 600px;
+	background-image: url('../images/exmachina.jpg');
+	background-size: cover;
+	color: #CFCCCA;
+	text-align: center;
+}
+
+#carosel>div {
+	margin: auto;
+	position: relative;
+	top: 45%;
+}
+
+#text {
+	font-size: 200%;
+	font-weight: bold;
+	padding-bottom: 25px;
+}
+
+.buttons {
+	display: inline-block;
+}
+
+.button {
+	width: 150px;
+	height: 30px;
+	border-radius: 25px;
+	border: 2px solid white;
+	padding: 10px;
+	float: left;
+	margin: 20px auto;
+}
+
+/* RADIO */
+#radio {
+	background-image: url('../images/bg.jpg');
+	width: 100%;
+	/* height: 600px; */
+	background-size: 100% 600px;
+	color: white;
+}
+
+#radio-text {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+#radio-text p:first-child {
+	padding: 50px;
+	font-weight: bold;
+	font-size: 200%;
+}
+
+#radio-text p:last-child {
+	text-align: center;
+	color: #CFCCCA;
+}
+
+#list {
+	display: inline-block;
+	width: 100%;
+	margin-top: 40px;
+	margin-left: auto;
+}
+
+#list ul {
+	float: left;
+	padding-left: 80px;
+	box-sizing: border-box;
+}
+
+#list li {
+	padding: 7px;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+#search {
+	width: 80px;
+	border-radius: 25px;
+	border: 2px solid white;
+	padding: 15px 50px;
+	margin-left: 45%;
+	margin-top: 25px;
+}
+
+/* IMAGES */
+#movies {
+	background-color: #1F2324;
+	color: white;
+	width: 100%;
+	/* height: auto; */
+	
+}
+#images {
+	display: inline-block;
+	width: 100%;
+}
+
+.col-3 {
+	width: 25%;
+}
+	
+#images ul {
+	float: left;
+}
+
+#images li {
+	margin: 20px;
+}
+
+#images li div {
+	margin: auto;
+}
+
+.heading {
+	text-align: center;
+}
+
+.color {
+	color: #CFCCCA;
+	text-align: center;
+}
+
+.btnmore {
+	width: 100px;
+	border-radius: 25px;
+	border: 2px solid white;
+	padding: 15px 50px;
+	margin-left: 45%;
+	margin-top: 20px;
+	position: relative;
+	bottom: 20px;
+}
+
+#one {
+	background-image: url('../images/m1.jpg');
+	width: 200px;
+	height: 260px;
+}
+
+#one:hover {
+	background-image: url('../images/zm1.jpg');
+}
+
+#two {
+	background-image: url('../images/m2.jpg');
+	width: 200px;
+	height: 260px;
+}
+
+#two:hover {
+	background-image: url('../images/zm2.jpg');
+}
+
+#three {
+	background-image: url('../images/m3.jpg');
+	width: 200px;
+	height: 260px;
+}
+
+#three:hover {
+	background-image: url('../images/zm3.jpg');
+}
+
+#four {
+	background-image: url('../images/m4.jpg');
+	width: 200px;
+	height: 260px;
+}
+
+#four:hover {
+	background-image: url('../images/zm4.jpg');
+}
+
+#five {
+	background-image: url('../images/m5.jpg');
+	width: 200px;
+	height: 260px;
+}
+
+#five:hover {
+	background-image: url('../images/zm5.jpg');
+}
+
+#six {
+	background-image: url('../images/m6.jpg');
+	width: 200px;
+	height: 260px;
+}
+
+#six:hover {
+	background-image: url('../images/zm6.jpg');
+}
+
+#seven {
+	background-image: url('../images/m7.jpg');
+	width: 200px;
+	height: 260px;
+}
+
+#seven:hover {
+	background-image: url('../images/zm7.jpg');
+}
+
+#eight {
+	background-image: url('../images/m8.jpg');
+	width: 200px;
+	height: 260px;
+}
+
+#eight:hover {
+	background-image: url('../images/zm8.jpg');
+}
+
+#nine {
+	background-image: url('../images/m9.jpg');
+	width: 200px;
+	height: 260px;
+}
+
+#nine:hover {
+	background-image: url('../images/zm9.jpg');
+}
+
+#ten {
+	background-image: url('../images/m10.jpg');
+	width: 200px;
+	height: 260px;
+}
+
+#ten:hover {
+	background-image: url('../images/zm10.jpg');
+}
+
+#eleven {
+	background-image: url('../images/m11.jpg');
+	width: 200px;
+	height: 260px;
+}
+
+#eleven:hover {
+	background-image: url('../images/zm11.jpg');
+}
+
+#twelve {
+	background-image: url('../images/m12.jpg');
+	width: 200px;
+	height: 260px;
+}
+
+#twelve:hover {
+	background-image: url('../images/zm12.jpg');
+}
+
+h1 {
+	padding: 50px;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	font-size: 200%;
+}
+
+/* CAROSEL2 */
+#carosel2 {
+	background-image: url('../images/redbg.jpg');
+	width: 100%;
+	/* height: 630px; */
+	background-size: 100% 630px;
+	color: white;
+}
+
+#wrap-c2 {
+	width: 700px;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+#carosel2 p:first-child {
+	padding: 50px 0px;
+	font-weight: bold;
+	width: 100%;
+	font-size: 200%;
+}
+
+#carosel2 img {
+	border-radius: 50%;
+}
+
+#fan {
+	font-style: italic;
+	color: #CFCCCA;
+	padding: 20px 0px;
+}
+
+/* MAIL */
+#mail {
+	background-image: url('../images/bg.jpg');
+	width: 100%;
+	background-size: 100% 600px;
+	color: white;
+}
+
+#mail p {
+	font-size: 200%;
+	font-weight: bold;
+	text-align: center;
+	padding: 30px 0px;
+}
+
+#mail div:last-child {
+	width: 40px;
+}
+
+.col-6 {
+	width: 49%;
+	height: 30px;
+	margin: 20px auto;
+	background-color: #191B22;
+	border-width: 0px 0px 1px 0px;
+	color: white;
+	height: 50px;
+	font-size: 130%;
+}
+
+#message {
+	width: 99%;
+	background-color: #191B22;
+	border-width: 0px 0px 1px 0px;
+	color: white;
+	height: 50px;
+	font-size: 130%;
+	margin-bottom: 30px;
+}
+
+iframe {
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+
+@media all and (max-width: 768px) {
+	.col-2 {
+		width: 33.33%;
+		height: auto;
+	}
+	.col-3 {
+		width: 49%;
+		height: auto;
+	}
+	header div:first-child {
+		width: 100%;
+	}
+	header div:last-child {
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.col-2 {
+		width: 100%;
+		height: auto;
+	}
+	.col-3 {
+		width: 100%;
+		height: auto;
+	}
+	.col-6{
+		width: 100%;
+	}
+	header div:first-child {
+		width: 100%;
+	}
+	header div:last-child {
+		width: 100%;
+	}
+}
